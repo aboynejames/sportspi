@@ -51,6 +51,16 @@ Bluetooth dongle
 XRF serialport Radio module
 
 
+Hardware Setup Guide
+----------------------------------
+
+WIFI setup  See https://github.com/aboynejames/raspberrypiopensportproject
+
+Bluetooth  See https://github.com/aboynejames/raspberrypiopensportproject
+
+
+
+
 Android OS
 ------------------
 
