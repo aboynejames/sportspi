@@ -1,5 +1,5 @@
 {
-    "name" : "SelfServer",
+    "name" : "SportsPi-SelfServer",
     "description" : "augmented self intelligence",
     "homepage": "http://www.opensportproject.org>",
     "version" : "0.1.46",
@@ -8,7 +8,8 @@
         "self",
         "intelligence",
         "quantified self",
-        "analysis"
+        "analysis",
+	"raspberrypi"
     ],
     "contributors": [
         "some soon",
@@ -37,7 +38,10 @@
     "dependencies": {
     "socket.io": "~0.9.16",
     "authom": "~0.4.20",
-
+    "serialport": "~1.2.5",
+    "async": "~0.2.10",
+    "noble" : "~0.2.8",
+    "sensortag" : "0.1.7"
   },
 }
 
