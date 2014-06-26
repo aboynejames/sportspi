@@ -33,11 +33,22 @@ On a SportsPi  (raspberry pi)
 
 6. Install node package forever or equivilant
 
-7.  For start of server on pi boot write a /etc/init.d/  files  see example at http://
+7. write/edit  a /etc/init.d/  file.  Example .sh file include, edit paths to where index.js file is hosted / node source directory
 
-8. run in root mode   sudo bash
+8.  For start of server on pi boot  sudo update-rc.d start-selfserver.sh defaults
 
-9. node index.js
+9. run in root mode   sudo bash  or reboot to run from .sh file.
+
+10. node index.js
+
+
+SportPi Hardware Required
+-----------------------------------------
+Raspberry Pi
+SD card
+Wifi Dongle
+Bluetooth dongle
+XRF serialport Radio module
 
 
 Android OS
